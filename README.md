@@ -7,11 +7,33 @@
 
 ## 로컬 실행
 
+pnpm 11.3.0을 씁니다(`npm install -g pnpm@11.3.0`).
+
 ```bash
-npx pnpm@11.3.0 install
-npx pnpm@11.3.0 dev      # http://localhost:4321
-npx pnpm@11.3.0 build    # dist/ 에 정적 사이트 생성
+pnpm install
+pnpm dev      # http://localhost:4321
+pnpm build    # dist/ 에 정적 사이트 생성
 ```
+
+## 프로젝트 구조
+
+```
+├── src/content/posts/       글 (평소에는 여기만 만지면 됨)
+├── src/content/pages/       소개(About) 페이지 본문
+├── astro-paper.config.ts    사이트 설정: 제목, 주소, 기능 켜고 끄기
+├── src/custom/              내 커스터마이즈 자리. 테마 업데이트가 건드리지 않음
+├── src/i18n/lang/ko.ts      한국어 UI 문구
+├── src/pages/               URL별 페이지: 홈, 글, 태그, 검색, OG 이미지
+├── src/components/          화면 부품 (테마 코드)
+├── src/layouts/             페이지 뼈대 (테마 코드)
+├── public/                  그대로 복사되는 파일: 파비콘 등
+├── .github/workflows/       ci.yml(검사), deploy.yml(배포)
+├── astro.config.ts          Astro 설정: 폰트, 마크다운 처리
+└── package.json             패키지 목록 (정확한 버전은 pnpm-lock.yaml)
+```
+
+사이트를 바꿀 때는 `astro-paper.config.ts`와 `src/custom/`을 먼저 봅니다.
+테마 코드(`components/`, `layouts/`, `pages/`)를 고치면 테마 업데이트 때 충돌이 날 수 있습니다.
 
 ## 글 쓰기
 
