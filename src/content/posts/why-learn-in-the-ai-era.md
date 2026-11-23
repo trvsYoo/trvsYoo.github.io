@@ -32,7 +32,7 @@ tags:
 
 AI는 평균을 끌어올리는 데 능하다. 고객 상담원 5,000여 명을 조사한 연구에서 AI 도우미를 쓴 초보 상담원의 생산성은 34% 올랐지만, 숙련된 상담원에게는 거의 변화가 없었다. 컨설턴트 758명을 대상으로 한 실험에서도 하위권의 과제 품질은 43%, 상위권은 17% 올랐다. 짧은 소설을 쓰는 실험에서는 원래 창의적인 작가들에게 AI 아이디어가 별 도움이 되지 않았다.
 
-&#91;영상 제목\]에서 들은 이야기도 같은 방향이다. AI를 쓰면 평균만큼, 혹은 평균보다 조금 나은 결과는 쉽게 얻는다. 그 수준을 넘어서려면 결국 사람이 개입해야 한다.
+마일스 크랜머(Miles Cranmer)의 강연 「How to Avoid AI Brain Rot」에서 들은 이야기도 같은 방향이다. AI를 쓰면 평균만큼, 혹은 평균보다 조금 나은 결과는 쉽게 얻는다. 그 수준을 넘어서려면 결국 사람이 개입해야 한다.
 
 그런데 평균선은 고정돼 있지 않다. 모델이 좋아질 때마다 AI가 기본으로 내놓는 결과물의 수준도 올라간다. 오늘 상위권이 하는 일이 내일은 AI의 기본값이 될 수 있다. '평균을 넘기 위해 배운다'는 이유가 금방 낡는 까닭이다.
 
@@ -140,4 +140,4 @@ AI 답변이 비슷비슷해지는 원인을 추적한 연구가 있다. 원인�
 - [세계일보 칼럼](https://www.segye.com/newsView/20260603510060), 2026
 - Shumailov 외, [AI models collapse when trained on recursively generated data](https://oatml.cs.ox.ac.uk/publications/202407_Shumailov_ModelCollapse.html), Nature 2024
 - Brynjolfsson, Chandar, Chen, [Canaries in the Coal Mine?](https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine), Stanford Digital Economy Lab 2025
-- [영상 제목](https://youtu.be/uXC7OuCas2Q)
+- Miles Cranmer, [How to Avoid AI Brain Rot](https://youtu.be/uXC7OuCas2Q), Cambridge MPhil in Data Intensive Science 강연 영상
