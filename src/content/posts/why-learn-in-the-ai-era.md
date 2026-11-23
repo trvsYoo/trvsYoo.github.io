@@ -8,11 +8,13 @@ tags:
   - 에세이
 ---
 
+> 출처 표기: 각주 번호가 붙은 문장은 외부 자료의 사실이나 주장이고, 번호가 없는 문장은 필자의 생각이다. 외부의 반론도 출처와 함께 밝혔다. 번호는 글 끝의 출처 목록과 이어진다.
+
 코드를 사랑하던 개발자들이 있었다. 좋은 코드를 쓰는 일 자체에서 기쁨을 느끼고, 어제보다 나은 코드를 쓰려고 공부하던 사람들이다. 요즘 그들은 이제 코드를 사랑하면 안 된다는 말을 듣는다. 코드는 AI가 쓰고, 개발자는 AI를 잘 부리면 된다는 것이다. 배워서 성장하는 개발자보다 다음 모델이 나오기를 기다리는 개발자가 더 현실적인 모습이 되었다.
 
 이런 변화는 개발자에게만 일어나지 않는다. 'AI가 다 해 주는데 왜 배우나'라는 질문이 늘고 있다. '배우는 게 즐거워서'라고 답할 수도 있다. 하지만 그 답으로는 이 질문을 이기지 못한다. 즐거움은 소중하지만, 누군가에게 배워야 한다고 설득할 만큼 강한 이유는 아니다.
 
-이 회의론은 쉽게 더 큰 질문으로 번진다. AI 시대에 인간은 필요한가. 그런데 이 질문에는 함정이 있다. '필요하다'는 말은 늘 '무엇을 위해 쓸모 있다'는 뜻이다. 이 질문을 묻는 순간 우리는 이미 인간을 쓸모로 재고 있다. 지그문트 바우만은 『쓰레기가 되는 삶들』에서, 사회가 가치 있다고 여기는 것을 만들어 내지 못하는 사람들을 쓸모없는 존재로 밀어내는 방식을 비판했다. 'AI 시대에 인간은 필요한가'라는 질문은 그 틀을 그대로 물려받는다.
+이 회의론은 쉽게 더 큰 질문으로 번진다. AI 시대에 인간은 필요한가. 그런데 이 질문에는 함정이 있다. '필요하다'는 말은 늘 '무엇을 위해 쓸모 있다'는 뜻이다. 이 질문을 묻는 순간 우리는 이미 인간을 쓸모로 재고 있다. 지그문트 바우만은 『쓰레기가 되는 삶들』에서, 사회가 가치 있다고 여기는 것을 만들어 내지 못하는 사람들을 쓸모없는 존재로 밀어내는 방식을 비판했다[^1]. 'AI 시대에 인간은 필요한가'라는 질문은 그 틀을 그대로 물려받는다.
 
 그래서 나는 이 질문에 답하지 않으려 한다. 인간의 쓸모를 증명하려 하지 않고, 처음 품었던 질문으로 돌아가려 한다. AI 시대에 왜 배우는가.
 
@@ -30,9 +32,9 @@ tags:
 
 ## AI는 기본값을 만든다
 
-AI는 평균을 끌어올리는 데 능하다. 고객 상담원 5,000여 명을 조사한 연구에서 AI 도우미를 쓴 초보 상담원의 생산성은 34% 올랐지만, 숙련된 상담원에게는 거의 변화가 없었다. 컨설턴트 758명을 대상으로 한 실험에서도 하위권의 과제 품질은 43%, 상위권은 17% 올랐다. 짧은 소설을 쓰는 실험에서는 원래 창의적인 작가들에게 AI 아이디어가 별 도움이 되지 않았다.
+AI는 평균을 끌어올리는 데 능하다. 고객 상담원 5,000여 명을 조사한 연구에서 AI 도우미를 쓴 초보 상담원의 생산성은 34% 올랐지만, 숙련된 상담원에게는 거의 변화가 없었다[^2]. 컨설턴트 758명을 대상으로 한 실험에서도 하위권의 과제 품질은 43%, 상위권은 17% 올랐다[^3]. 짧은 소설을 쓰는 실험에서는 원래 창의적인 작가들에게 AI 아이디어가 별 도움이 되지 않았다[^4].
 
-마일스 크랜머(Miles Cranmer)의 강연 「How to Avoid AI Brain Rot」에서 들은 이야기도 같은 방향이다. AI를 쓰면 평균만큼, 혹은 평균보다 조금 나은 결과는 쉽게 얻는다. 그 수준을 넘어서려면 결국 사람이 개입해야 한다.
+마일스 크랜머(Miles Cranmer)의 강연 「How to Avoid AI Brain Rot」에서 들은 이야기도 같은 방향이다. AI를 쓰면 평균만큼, 혹은 평균보다 조금 나은 결과는 쉽게 얻는다. 그 수준을 넘어서려면 결국 사람이 개입해야 한다[^5].
 
 그런데 평균선은 고정돼 있지 않다. 모델이 좋아질 때마다 AI가 기본으로 내놓는 결과물의 수준도 올라간다. 오늘 상위권이 하는 일이 내일은 AI의 기본값이 될 수 있다. '평균을 넘기 위해 배운다'는 이유가 금방 낡는 까닭이다.
 
@@ -40,9 +42,9 @@ AI는 평균을 끌어올리는 데 능하다. 고객 상담원 5,000여 명을 
 
 ## 모두가 같은 기본값을 받으면
 
-기본값이 문제가 되는 것은 모두가 그것을 받기 때문이다. 앞의 소설 실험에는 흥미로운 결과가 하나 더 있었다. AI 아이디어를 받은 작가들의 이야기는 더 참신하다는 평가를 받았지만, 이야기끼리는 서로 더 비슷했다. 다른 실험에서도 ChatGPT로 아이디어를 낸 사람들의 결과물은 서로 덜 구별됐다. 개인은 나아지는데 집단은 비슷해지는 것이다.
+기본값이 문제가 되는 것은 모두가 그것을 받기 때문이다. 앞의 소설 실험에는 흥미로운 결과가 하나 더 있었다. AI 아이디어를 받은 작가들의 이야기는 더 참신하다는 평가를 받았지만, 이야기끼리는 서로 더 비슷했다[^4]. 다른 실험에서도 ChatGPT로 아이디어를 낸 사람들의 결과물은 서로 덜 구별됐다[^6]. 개인은 나아지는데 집단은 비슷해지는 것이다.
 
-눈여겨볼 점은 이 수렴의 원인이 AI의 성질이라기보다 우리가 AI를 쓰는 방식에 있다는 것이다. 모두가 같은 소수의 모델을 같은 기본값으로, 불특정 다수를 위한 결과물에 쓰면 결과는 하나의 가치와 정답으로 모인다. 엔지니어의 말로 하면 기본값은 맥락 없이 받은 답이다. 같은 모델에 같은, 혹은 비어 있는 맥락을 넣으면 같은 곳에 닿는다. 컴퓨터과학자 클라인버그와 라가반은 이런 상태를 '알고리즘 단일문화'라고 부른다. 그들은 각자에게 더 정확한 알고리즘이라도 모두가 같은 것을 쓰면 사회 전체의 결정이 오히려 나빠질 수 있음을 보였다.
+눈여겨볼 점은 이 수렴의 원인이 AI의 성질이라기보다 우리가 AI를 쓰는 방식에 있다는 것이다. 모두가 같은 소수의 모델을 같은 기본값으로, 불특정 다수를 위한 결과물에 쓰면 결과는 하나의 가치와 정답으로 모인다. 엔지니어의 말로 하면 기본값은 맥락 없이 받은 답이다. 같은 모델에 같은, 혹은 비어 있는 맥락을 넣으면 같은 곳에 닿는다. 컴퓨터과학자 클라인버그와 라가반은 이런 상태를 '알고리즘 단일문화'라고 부른다. 그들은 각자에게 더 정확한 알고리즘이라도 모두가 같은 것을 쓰면 사회 전체의 결정이 오히려 나빠질 수 있음을 보였다[^7].
 
 LLM은 확률적으로 답하니 충분히 다양하지 않느냐고 물을 수 있다. 하지만 top-k나 temperature 같은 설정은 표현을 흔들 뿐, 모델이 무엇을 그럴듯하다고 여기는지는 바꾸지 못한다.
 
@@ -52,7 +54,7 @@ LLM은 확률적으로 답하니 충분히 다양하지 않느냐고 물을 수 
 
 여기까지 오면 '인간은 다양하고 AI는 획일적이다'라고 정리하고 싶어진다. 하지만 그렇게 말하기는 어렵다. 사람도 익숙한 것을 고르기 때문이다.
 
-AI 답변이 비슷비슷해지는 원인을 추적한 연구가 있다. 원인의 큰 부분은 사람이었다. AI를 다듬는 과정에서 사람 평가자들이 익숙하고 매끄러운 답을 꾸준히 더 높게 평가했고, AI는 그 선호를 따라 좁아졌다. AI 이전에도 유행과 베스트셀러, 플랫폼의 추천 알고리즘은 우리의 취향을 비슷하게 만들어 왔다. 매일 쓰는 도구가 같은 취향을 권하면 주관도 서서히 물든다.
+AI 답변이 비슷비슷해지는 원인을 추적한 연구가 있다. 원인의 큰 부분은 사람이었다. AI를 다듬는 과정에서 사람 평가자들이 익숙하고 매끄러운 답을 꾸준히 더 높게 평가했고, AI는 그 선호를 따라 좁아졌다[^8]. AI 이전에도 유행과 베스트셀러, 플랫폼의 추천 알고리즘은 우리의 취향을 비슷하게 만들어 왔다[^9]. 매일 쓰는 도구가 같은 취향을 권하면 주관도 서서히 물든다.
 
 세 번째 전제가 여기서 흔들린다. 사람은 특수한 답을 고를 수 있지만, 그 특수함은 저절로 유지되지 않는다. 그러니 '인간은 다양하다'가 아니라 '특수함은 지켜야 하는 것'이라고 말해야 한다. 그렇다면 무엇이 그것을 지키는가.
 
@@ -60,11 +62,11 @@ AI 답변이 비슷비슷해지는 원인을 추적한 연구가 있다. 원인�
 
 나는 그 답이 배움이라고 생각한다. 다만 배움의 목표는 평균을 넘는 것이 아니다. 앞에서 보았듯 평균선은 계속 올라간다. 배움의 목표는 AI가 내놓는 여러 답 가운데 무엇을 고를지 판단하는 것이다.
 
-마이크로소프트 연구진이 지식노동자 319명을 조사했더니, AI를 믿을수록 결과물을 비판적으로 검토하는 일이 줄었고 자기 능력에 자신 있을수록 늘었다. 앞의 컨설턴트 실험에는 반대쪽 결과도 있었다. AI의 능력 밖에 있는 과제에서는 AI를 쓴 쪽의 정답률이 오히려 19%p 낮았다. 언제 AI를 믿으면 안 되는지 아는 것도 배움에서 나온다.
+마이크로소프트 연구진이 지식노동자 319명을 조사했더니, AI를 믿을수록 결과물을 비판적으로 검토하는 일이 줄었고 자기 능력에 자신 있을수록 늘었다[^10]. 앞의 컨설턴트 실험에는 반대쪽 결과도 있었다. AI의 능력 밖에 있는 과제에서는 AI를 쓴 쪽의 정답률이 오히려 19%p 낮았다[^3]. 언제 AI를 믿으면 안 되는지 아는 것도 배움에서 나온다.
 
 배움은 이해하는 힘도 준다. AI가 나보다 나를 더 잘 알고 나에게 맞는 답을 골라 준다고 해 보자. 그래도 내가 그 이유를 이해하고 인정할 수 없다면, 그 선택은 맞을 수는 있어도 내 것은 아니다. 배움은 AI가 고른 것을 이해하고 내 것으로 받아들일 수 있게 한다.
 
-그리고 맥락을 건네는 힘이 있다. AI에게서 나에게 맞는 답을 얻으려면 내 상황과 주변 상황을 이해하고, 그것을 AI가 쓸 수 있는 말로 옮겨야 한다. 문서로 남지 않은 오프라인의 맥락, 몸으로는 알지만 말로는 잘 나오지 않는 암묵지까지 포함해서다. 무엇이 중요한 맥락인지 알려면 그 영역을 알아야 하고, 그것을 옮기려면 언어가 있어야 한다. 이것도 배움에서 나온다.
+그리고 맥락을 건네는 힘이 있다. AI에게서 나에게 맞는 답을 얻으려면 내 상황과 주변 상황을 이해하고, 그것을 AI가 쓸 수 있는 말로 옮겨야 한다[^11]. 문서로 남지 않은 오프라인의 맥락, 몸으로는 알지만 말로는 잘 나오지 않는 암묵지까지 포함해서다. 무엇이 중요한 맥락인지 알려면 그 영역을 알아야 하고, 그것을 옮기려면 언어가 있어야 한다. 이것도 배움에서 나온다.
 
 사람이 모르는 선택지는 언제나 있다. AI도 마찬가지다. 다만 둘은 서로 다른 것을 모른다. AI는 학습한 데이터와 목표가 정한 범위 안에서 보고, 사람은 각자 살아온 경험 안에서 본다. 그래서 얼마나 넓고 깊게 배웠느냐가 개입의 질을 정한다.
 
@@ -74,11 +76,11 @@ AI 답변이 비슷비슷해지는 원인을 추적한 연구가 있다. 원인�
 
 이 주장은 AI가 더 발전해도 유지될까. 두 단계로 밀어붙여 보자.
 
-먼저 AI가 열 가지 답을 모두 내놓는 경우다. 실제로 더 다양한 AI는 만들 수 있다. 프롬프트만 바꿔 다양성을 되살리는 기법도 나왔고, 여러 모델을 섞어 쓰거나 개인에게 맞출 수도 있다. 선택지가 많다고 해서 수렴하지 않는 것은 아니다. 사람은 결국 추천을 누르기도 한다. 다만 선택지가 하나만 남는 상황은 막을 수 있다. 그리고 그 안에서 고르는 것은 사람이다.
+먼저 AI가 열 가지 답을 모두 내놓는 경우다. 실제로 더 다양한 AI는 만들 수 있다. 프롬프트만 바꿔 다양성을 되살리는 기법도 나왔고[^8], 여러 모델을 섞어 쓰거나 개인에게 맞출 수도 있다. 선택지가 많다고 해서 수렴하지 않는 것은 아니다. 사람은 결국 추천을 누르기도 한다. 다만 선택지가 하나만 남는 상황은 막을 수 있다. 그리고 그 안에서 고르는 것은 사람이다.
 
 다음은 AI가 스스로 좋음을 추구하는 존재가 되는 경우다. 조건문으로 생각해 보자. 그런 AI는 첫 번째 전제대로 사람과 함께 세계를 이루는 또 하나의 구성원이다. 그렇다고 사람이 사라지지는 않는다. 함께 존재한다. 사람의 자리는 사람의 삶을 직접 사는 자리이기 때문이다. 다만 소수 AI의 '더 좋은 것'이 모두에게 적용된다면 수렴은 더 강하게 일어난다. 그것이 나에게도 좋은지 판단하는 일은 여전히 배움의 몫이다.
 
-어느 경우든 수렴은 되돌리기 어렵다. AI가 만든 데이터로 다음 AI를 학습시키면 세대를 거듭할수록 드문 것부터 사라지고, 결국 원래와 닮지 않은 결과로 무너진다는 연구가 있다. 다양성을 잃지 않으려는 사람의 노력은 AI와 사람이 함께 지속되기 위해서도 필요하다.
+어느 경우든 수렴은 되돌리기 어렵다. AI가 만든 데이터로 다음 AI를 학습시키면 세대를 거듭할수록 드문 것부터 사라지고, 결국 원래와 닮지 않은 결과로 무너진다는 연구가 있다[^12]. 다양성을 잃지 않으려는 사람의 노력은 AI와 사람이 함께 지속되기 위해서도 필요하다.
 
 ## 이 논지가 약해지는 지점, 그리고 공존의 조건
 
@@ -92,7 +94,7 @@ AI 답변이 비슷비슷해지는 원인을 추적한 연구가 있다. 원인�
 
 이 논지를 내가 일하는 자리에 대어 보고 싶다. 처방을 하려는 것은 아니다. 하나의 사례로 읽어 주면 좋겠다.
 
-솔직하게 말하면, 코드를 쓰는 일처럼 정답이 있는 일에서는 AI가 낫다. 모델이 계속 발전한다고 보면 프로그래머라는 직업의 상당 부분은 대체될 가능성이 높다. 그리고 이미 일어나고 있다. 스탠퍼드 연구진이 미국의 급여 데이터를 분석했더니, AI 노출도가 높은 직업에서 22\~25세 노동자의 고용이 16% 상대적으로 줄었다. 감소는 AI가 사람을 돕기보다 대신하는 직업에 몰렸고, 소프트웨어 개발이 그 대표적인 예였다.
+솔직하게 말하면, 코드를 쓰는 일처럼 정답이 있는 일에서는 AI가 낫다. 모델이 계속 발전한다고 보면 프로그래머라는 직업의 상당 부분은 대체될 가능성이 높다. 그리고 이미 일어나고 있다. 스탠퍼드 연구진이 미국의 급여 데이터를 분석했더니, AI 노출도가 높은 직업에서 22\~25세 노동자의 고용이 16% 상대적으로 줄었다. 감소는 AI가 사람을 돕기보다 대신하는 직업에 몰렸고, 소프트웨어 개발이 그 대표적인 예였다[^13].
 
 그렇다면 트레이드오프를 판단하는 일은 어떨까. 여기에는 두 가지가 섞여 있다. 하나는 기술적 판단이다. 이 설계가 성능, 비용, 복잡도에 어떤 영향을 주는가. AI는 이것을 충분히 잘할 수 있고, 점점 더 잘할 것이다. 다른 하나는 무엇을 우선할지에 대한 결정이다. 지금 이 팀은 속도와 안정성 중 무엇을 택하는가. 6개월 뒤의 확장성을 위해 지금의 단순함을 포기할 것인가. 이것은 기술 문제가 아니라 그 결과를 감당할 사람들의 선택이다. AI는 추천할 수 있지만, 결정하고 결과를 떠안는 자리는 이해관계자의 자리다.
 
@@ -124,20 +126,28 @@ AI 답변이 비슷비슷해지는 원인을 추적한 연구가 있다. 원인�
 
 그렇다면 초급 자리가 줄어드는 시대에, 그 자리까지 가기 위한 배움은 무엇일까. 그 이야기는 다음 글에서 이어 가려 한다.
 
----
+[^1]: Zygmunt Bauman, _Wasted Lives: Modernity and Its Outcasts_ (2004). 한국어판 『쓰레기가 되는 삶들』.
 
-### 참고한 자료
+[^2]: [Brynjolfsson, Li, Raymond, “Generative AI at Work,” _Quarterly Journal of Economics_ (2025)](https://nber.org/papers/w31161)
 
-- 지그문트 바우만, 『쓰레기가 되는 삶들』(Wasted Lives, 2004)
-- Brynjolfsson, Li, Raymond, [Generative AI at Work](https://nber.org/papers/w31161), QJE 2025
-- Dell'Acqua 외, [Navigating the Jagged Technological Frontier](https://mitsloan.mit.edu/sites/default/files/2023-10/SSRN-id4573321.pdf), HBS Working Paper 2023
-- Doshi & Hauser, [Generative AI enhances individual creativity but reduces the collective diversity of novel content](https://www.sciencedaily.com/releases/2024/07/240712222127.htm), Science Advances 2024
-- Anderson, Shah, Kreminski, [Homogenization Effects of LLMs on Human Creative Ideation](https://arxiv.org/abs/2402.01536), C&C 2024
-- Kleinberg & Raghavan, [Algorithmic Monoculture and Social Welfare](https://alphaxiv.org/abs/2101.05853), PNAS 2021
-- Zhang 외, [Verbalized Sampling](https://arxiv.org/abs/2510.01171v3), 2025
-- Erik Hoel, [Sorry Ted Chiang, humans aren't very original either](https://www.theintrinsicperspective.com/p/sorry-ted-chiang-humans-arent-very), 2024
-- Lee 외, [The Impact of Generative AI on Critical Thinking](https://www.microsoft.com/en-us/research/?p=1135061), CHI 2025
-- [세계일보 칼럼](https://www.segye.com/newsView/20260603510060), 2026
-- Shumailov 외, [AI models collapse when trained on recursively generated data](https://oatml.cs.ox.ac.uk/publications/202407_Shumailov_ModelCollapse.html), Nature 2024
-- Brynjolfsson, Chandar, Chen, [Canaries in the Coal Mine?](https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine), Stanford Digital Economy Lab 2025
-- Miles Cranmer, [How to Avoid AI Brain Rot](https://youtu.be/uXC7OuCas2Q), Cambridge MPhil in Data Intensive Science 강연 영상
+[^3]: [Dell'Acqua 외, “Navigating the Jagged Technological Frontier,” HBS Working Paper 24-013 (2023)](https://mitsloan.mit.edu/sites/default/files/2023-10/SSRN-id4573321.pdf)
+
+[^4]: [Doshi & Hauser, “Generative AI enhances individual creativity but reduces the collective diversity of novel content,” _Science Advances_ (2024) — ScienceDaily 요약](https://www.sciencedaily.com/releases/2024/07/240712222127.htm)
+
+[^5]: [Miles Cranmer, “How to Avoid AI Brain Rot,” Cambridge MPhil in Data Intensive Science 강연](https://youtu.be/uXC7OuCas2Q)
+
+[^6]: [Anderson, Shah, Kreminski, “Homogenization Effects of Large Language Models on Human Creative Ideation,” Creativity & Cognition (2024)](https://arxiv.org/abs/2402.01536)
+
+[^7]: [Kleinberg & Raghavan, “Algorithmic Monoculture and Social Welfare,” _PNAS_ (2021)](https://alphaxiv.org/abs/2101.05853)
+
+[^8]: [Zhang 외, “Verbalized Sampling: How to Mitigate Mode Collapse and Unlock LLM Diversity” (2025)](https://arxiv.org/abs/2510.01171v3)
+
+[^9]: [Erik Hoel, “Sorry Ted Chiang, humans aren't very original either” (2024)](https://www.theintrinsicperspective.com/p/sorry-ted-chiang-humans-arent-very)
+
+[^10]: [Lee 외, “The Impact of Generative AI on Critical Thinking,” CHI (2025)](https://www.microsoft.com/en-us/research/?p=1135061)
+
+[^11]: [세계일보, \[사이언스프리즘\] AI 시대이기에 더 공부해야 한다 (2026.6.3)](https://www.segye.com/newsView/20260603510060)
+
+[^12]: [Shumailov 외, “AI models collapse when trained on recursively generated data,” _Nature_ (2024)](https://oatml.cs.ox.ac.uk/publications/202407_Shumailov_ModelCollapse.html)
+
+[^13]: [Brynjolfsson, Chandar, Chen, “Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence,” Stanford Digital Economy Lab (2025)](https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine)
