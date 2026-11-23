@@ -44,6 +44,13 @@ export default defineConfig({
     // stay in package.json so a customised config importing them still builds,
     // and are removed in v8.
     processor: unified({
+      // Show GFM footnotes under a visible Korean "출처" heading.
+      remarkRehype: {
+        footnoteLabel: "출처",
+        footnoteLabelProperties: {},
+        footnoteBackLabel: (referenceIndex: number, rereferenceIndex: number) =>
+          `본문의 ${referenceIndex + 1}번 각주${rereferenceIndex > 1 ? ` (${rereferenceIndex}번째)` : ""}로 돌아가기`,
+      },
       rehypePlugins: [
         rehypeHeadingIds,
         rehypeInlineToc,
