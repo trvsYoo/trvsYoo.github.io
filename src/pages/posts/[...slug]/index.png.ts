@@ -4,6 +4,7 @@ import { fontData, experimental_getFontFileURL } from "astro:assets";
 import satori from "satori";
 import sharp from "sharp";
 import { getFontPathByWeight } from "@/utils/getFontPathByWeight";
+import { loadKoreanOgFonts } from "@/utils/loadKoreanOgFonts";
 import { getPostSlug } from "@/utils/getPostPaths";
 import { postFilter } from "@/utils/postFilter";
 import config from "@/config";
@@ -35,6 +36,8 @@ export const GET: APIRoute = async ({ props, url }) => {
   if (regularFontPath === undefined || boldFontPath === undefined) {
     throw new Error("Cannot find the font path.");
   }
+
+  const krFonts = await loadKoreanOgFonts();
 
   const [regularData, boldData] = await Promise.all([
     fetch(experimental_getFontFileURL(regularFontPath, url)).then(res =>
@@ -180,6 +183,18 @@ export const GET: APIRoute = async ({ props, url }) => {
         {
           name: "Google Sans Code",
           data: boldData,
+          weight: 700,
+          style: "normal",
+        },
+        {
+          name: "Pretendard",
+          data: krFonts.regular,
+          weight: 400,
+          style: "normal",
+        },
+        {
+          name: "Pretendard",
+          data: krFonts.bold,
           weight: 700,
           style: "normal",
         },

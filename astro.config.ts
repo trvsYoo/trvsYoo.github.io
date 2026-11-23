@@ -33,8 +33,8 @@ export default defineConfig({
     inlineTocDeprecation(),
   ],
   i18n: {
-    locales: ["en"],
-    defaultLocale: "en",
+    locales: ["ko"],
+    defaultLocale: "ko",
     routing: {
       prefixDefaultLocale: false,
     },
@@ -71,7 +71,9 @@ export default defineConfig({
       name: "Google Sans Code",
       cssVariable: "--font-google-sans-code",
       provider: fontProviders.google(),
-      fallbacks: ["monospace"],
+      // Hangul falls through to Pretendard (loaded in src/custom/Head.astro)
+      // before the generic monospace font picks a system Korean font.
+      fallbacks: ["Pretendard Variable", "monospace"],
       weights: [300, 400, 500, 600, 700],
       styles: ["normal", "italic"],
       formats: ["woff", "ttf"],
