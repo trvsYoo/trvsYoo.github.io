@@ -4,6 +4,7 @@ title: 블로그를 시작합니다
 description: 배우고 만든 것을 기록하려고 블로그를 열었습니다.
 tags:
   - 회고
+draft: true
 ---
 
 블로그를 시작합니다.
