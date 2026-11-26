@@ -3,8 +3,8 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://trvsyoo.github.io/",
-    title: "Travis Blog",
-    description: "배우고 만든 것을 기록하는 개발 블로그",
+    title: "사람, 신, AI",
+    description: "사람, 신, AI에 대해 배우고 생각한 것을 기록합니다",
     author: "Travis",
     profile: "https://github.com/trvsYoo",
     ogImage: "default-og.jpg",
@@ -29,7 +29,8 @@ export default defineAstroPaperConfig({
     toc: true,
   },
   socials: [
-    { name: "github",   url: "https://github.com/trvsYoo" },
+    { name: "github",   url: "https://github.com/trvsYoo", linkTitle: "Travis의 GitHub" },
+    { name: "linkedin", url: "https://www.linkedin.com/in/taesikyoo", linkTitle: "Travis의 LinkedIn" },
   ],
   shareLinks: [
     { name: "x",        url: "https://x.com/intent/post?url=" },
